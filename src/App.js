@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import TripList from './components/tripList/TripList.jsx';
 
 function App() {
+  // 주석입니다!
+  /** **/  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <TripList/>
+		</div>
   );
 }
 
